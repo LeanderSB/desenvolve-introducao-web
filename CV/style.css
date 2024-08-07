@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 5px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Fonte padrão para o restante do texto */
+    background: url('papel-de-parede.jpg') no-repeat center center fixed; /* Imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir o fundo */
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+    width: 100%;
+    background-color: rgba(173, 168, 168, 0.342);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 14px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    padding-top: 60px; /* Para evitar que o conteúdo fique escondido atrás da navbar */
+}
+
+/* Estilizar títulos com a fonte Roboto */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Negrito */
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Normal */
+}
+
+.caixa {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #000; /* Borda da caixa */
+    border-radius: 8px; /* Cantos arredondados */
+    background-color: #ffffff; /* Cor de fundo da caixa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
+    margin-top: 60px; /* Para evitar que o conteúdo inicial fique escondido atrás da navbar */
+    box-sizing: border-box; /* Inclui a borda na largura e altura */
+}
+
+.dados, .Objetivo, .formacao, .experiencia, .cursos {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box; /* Inclui a borda na largura e altura */
+    border-top: 20px solid rgba(173, 168, 168, 0.342); /* Borda superior mais larga */
+}
+
+.cursos ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+}
