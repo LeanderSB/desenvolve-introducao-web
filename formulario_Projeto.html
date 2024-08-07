@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulário</title>
+    </head>
+    <body>
+        <h1 id="INICIO">FORMULARIO</h1> 
+        <form action="identificaçao" method="POST"> 
+            <p>
+               <label for="Nome"> Nome:</label>
+               <input for="text" placeholder="Seu Nome:" id="Nome"/>
+            </p>
+            <p>
+                <label for="telefone"> Telefone:</label>
+                <input for="number" placeholder="Telefone" id="Telefone"/>
+            </p>
+            <p>
+               <laber for="email"> E-mail</laber>
+               <input for="text" placeholder="E-mail" id="E-mail"/>
+            </p>
+             
+            Dados de escolha:
+
+            <h4> Qual o seu status migratório atual? <h4>
+            
+              <p> <input type="radio" id="Me preparando" name="preparando"/>
+                <label type="Me preparando"> Me preparando para migrar, ainda no Brasil!</label></p>
+              <p> 
+                <input type="radio" id="Me adaptando" name="preparando"/>
+                <label type="Me adaptando"> Migrei a menos de 1 ano, ainda me adaptando!</label>
+              </p>
+              <p>
+               <input type="radio" id="Me integrando" name="preparando"/>
+               <label type="Me integrando"> Migrei a menos de 2 anos, me integrando na cultura!</label> 
+              </p>
+              <p>
+                <input type="radio" id="dois anos" name="preparando"/>
+                <label type="dois anos"> Migrei a mais de 2 anos! </label>
+              </p>
+              <p>
+                <input type="radio" id="retornar" name="preparando"/>
+                <label type="retornar"> Migrei, mas quero retornar para o Brasil!</label>
+              </p>
+
+
+            <h4> Qual sua principal dificuldade nesse momento migratorio?</h4>
+            
+                <p> <input type="radio" id="ansiedade" name="dificuldade"/>
+                    <label type="ansiedade"> Ansiedade</label></p>
+                <p> 
+                    <input type="radio" id="solidao" name="dificuldade"/>
+                    <label type="solidao"> Solidão/Isolamento</label>
+                </p>
+                <p>
+                   <input type="radio" id="problemas" name="dificuldade"/>
+                   <label type="problemas"> Problemas de Adaptação</label> 
+                </p>
+                <p>
+                    <input type="radio" id="mudança" name="dificuldade"/>
+                    <label type="mudança"> Mudança no Sono </label>
+                </p>
+                <p>
+                    <input type="radio" id="humor" name="dificuldade"/>
+                    <label type="humor"> Alteraçao do Humor </label>
+                </p>
+                <p>
+                    <input type="radio" id="procrastinaçao" name="dificuldade"/>
+                    <label type="procrastinaçao"> Procrastinaçao </label>
+                </p>
+                <p>
+                    <input type="radio" id="saudade" name="dificuldade"/>
+                    <label type="saudade"> Saudade </label>
+                </p>
+                <p>
+                    <input type="radio" id="outros" name="dificuldade"/>
+                    <label type="outros"> Outros </label>
+                    <p>
+                        <textarea placeholder="Explicar Dificuldade"></textarea>
+                    </p>
+                    
+                </p>
+
+
+            <h4> Qual pais de destino e motivo migratorio?</h4>
+              <textarea></textarea>
+            
+            <h4> Qual a sua disponibilidade para a Sessão de Alinhamento?</h4>
+               <textarea></textarea>  
+    </body>
+    <p>
+        <label for="autorização">Autorizo compartilhar as respostas com a psicóloga</label>
+    <input type="checkbox" id="autorização" />
+    </p>
+    <p>
+        <input type="submit" value="Enviar Pesquisa" />
+    </p>
+   
+    <footer>
+        <a href="#INICIO">Voltar ao Inicio.</a>
+    </footer>
+</html>
